@@ -34,8 +34,8 @@ public class playa : MonoBehaviour
 
     IEnumerator WaitAndChange()
     {
-        yield return new WaitForSeconds(12.0f);
-        CS.ChangeMyScene("menu");
+        yield return new WaitForSeconds(3.0f);
+        CS.ChangeMyScene("MainMenu");
     }
 
 
